@@ -39,5 +39,10 @@ This is the guide to install macOS on the HP Probook 440 G4.
 - download [MacOS Mojave from the Apple App Store](https://apps.apple.com/us/app/macos-mojave/id1398502828?mt=12)
 - after download open terminal and paste:
 ```
-sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
+sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/USB
 ```
+- it should take up to 30 minutes
+- when its done download [Clover Bootloader](https://sourceforge.net/projects/cloverefiboot/)
+- mount EFI partition in [Clover Configurator](https://www.tonymacx86.com/resources/clover-configurator.429/)
+- then download [my EFI Folder](./EFI.zip)
+- replace it with original EFI on EFI partition
