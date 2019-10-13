@@ -1,9 +1,8 @@
-My Matebook X Pro's Hardware Configuration:
-
-CPU: i7-8550U @ 1.8GHz
-16GB RAM
-Nvidia MX 150 / Intel UHD 620
-3K display @ 3000x2000
-512 Gb Toshiba SSD
-USB Wifi: Edimax N150
-Builtin Bluetooth: Intel Wireless Bluetooth 8275
+# HP Probook 440 G4 Hackintosh
+This is the guide to install macOS on the HP Probook 440 G4.
+## My Laptop Configuration:
+- CPU: i5-7200U
+- RAM: 16GB
+- GPU: Nvidia 930MX / Intel HD 620
+- WIFI: Broadcom BCM94352Z DW1560
+- Drives: 128GB M.2 SSD & 1TB HDD (Windows), 120GB (External for hackintosh)
