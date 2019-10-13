@@ -34,3 +34,10 @@ This is the guide to install macOS on the HP Probook 440 G4.
 - disabled VT-d
 - enabled VTx
 ### USB installer
+- connect USB stick to device running macOS (Mac or Hackintosh)
+- open Disk Utility - format USB as Mac OS Extended (Journaled) and rename it to USB
+- download MacOS Mojave from the Apple App Store
+- after download open terminal and paste
+```
+sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
+```
