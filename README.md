@@ -33,4 +33,4 @@ This is the guide to install macOS on the HP Probook 440 G4.
 - disabled Secure Boot
 - disabled VT-d
 - enabled VTx
-### 
+### USB installer
