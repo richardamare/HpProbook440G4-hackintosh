@@ -15,4 +15,22 @@ This is the guide to install macOS on the HP Probook 440 G4.
 - Sleep
 - Audio via AppleALC
 - Keyboard with Volume Controls and Brightness controls
-- Power MA
+- Power Management with percentage
+- Trackpad
+## What doesn't work:
+- Nvidia GPU (not supported)
+- Fingerprint sensor
+- Camera (I changed SMBIOS from 14,1 to 15,4 camera doesn't work, but audio started to work properly)
+## Let's Get Started
+### Prepare:
+- HP Probook 440 G4
+- macOS Mojave downloaded from the App Store
+- atleast 8GB USB stick
+- USB Wifi adapter or LAN cable
+### Bios:
+- open F10
+- boot menu F9
+- disabled Secure Boot
+- disabled VT-d
+- enabled VTx
+### 
