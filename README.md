@@ -52,12 +52,12 @@ sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallme
 - select Install macOS... (use arrows and enter)
 - after boot select Disk Utility
 - in left corner click on "view" and select "Show All Devices"
-- select your drive for hackintosh
+- select your drive for Hackintosh
 - format it as "APFS", scheme "GUID Partition Map"
-- close Disk Utility and go to Install MacOS, select your drive and continue..
-- when your laptop restarts be sure it boots to your USB stick
+- close Disk Utility and go to Install macOS, select your drive and continue...
+- when your laptop restarts, be sure it boots to your USB stick
 - continue the installation
-- after instalation completed, configure hackintosh setting for your need
+- after installation completed, configure Hackintosh setting for your need
 ### Post Instalation
 - download [Clover Bootloader](https://sourceforge.net/projects/cloverefiboot/) and install it for UEFI booting only
 - [go here and folow instruction](https://www.tonymacx86.com/threads/guide-hp-probook-elitebook-zbook-using-clover-uefi-hotpatch.261719/) (if it will show to enter the password over and over, then try to add before the command - sudo)
