@@ -46,7 +46,7 @@ sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallme
 - mount EFI partition in [Clover Configurator](https://www.tonymacx86.com/resources/clover-configurator.429/)
 - then download [my EFI Folder](./EFI.zip)
 - replace my [EFI](./EFI.zip) with original EFI on EFI partition
-### Installation
+### Installation:
 - turn on laptop and start pressing F9 key (it opens boot menu)
 - select your USB stick and wait for it to boot
 - select Install macOS... (use arrows and enter)
@@ -58,7 +58,7 @@ sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallme
 - when your laptop restarts, be sure it boots to your USB stick
 - continue the installation
 - after installation completed, configure Hackintosh setting for your need
-### Post Instalation
+### Post Instalation:
 - download [Clover Bootloader](https://sourceforge.net/projects/cloverefiboot/) and install it for UEFI booting only
 - [go here and follow instruction](https://www.tonymacx86.com/threads/guide-hp-probook-elitebook-zbook-using-clover-uefi-hotpatch.261719/) (if it will show to enter the password over and over, then try to add before the command - sudo)
 - after completing the previous point download my EFI folder
