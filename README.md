@@ -33,7 +33,7 @@ This is the guide to install macOS on the HP Probook 440 G4.
 - disabled Secure Boot
 - disabled VT-d
 - enabled VTx
-### USB installer
+### USB installer:
 - connect USB stick to device running macOS (Mac or Hackintosh)
 - open Disk Utility - format USB as Mac OS Extended (Journaled) and rename it to USB
 - download [MacOS Mojave from the Apple App Store](https://apps.apple.com/us/app/macos-mojave/id1398502828?mt=12)
@@ -45,4 +45,27 @@ sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallme
 - when its done download [Clover Bootloader](https://sourceforge.net/projects/cloverefiboot/)
 - mount EFI partition in [Clover Configurator](https://www.tonymacx86.com/resources/clover-configurator.429/)
 - then download [my EFI Folder](./EFI.zip)
-- replace it with original EFI on EFI partition
+- replace my [EFI](./EFI.zip) with original EFI on EFI partition
+### Installation
+- turn on laptop and start pressing F9 key (it opens boot menu)
+- select your USB stick and wait for it to boot
+- select Install macOS... (use arrows and enter)
+- after boot select Disk Utility
+- in left corner click on "view" and select "Show All Devices"
+- select your drive for hackintosh
+- format it as "APFS", scheme "GUID Partition Map"
+- close Disk Utility and go to Install MacOS, select your drive and continue..
+- when your laptop restarts be sure it boots to your USB stick
+- continue the installation
+- after instalation completed, configure hackintosh setting for your need
+### Post Instalation
+- download [Clover Bootloader](https://sourceforge.net/projects/cloverefiboot/) and install it for UEFI booting only
+- [go here and folow instruction](https://www.tonymacx86.com/threads/guide-hp-probook-elitebook-zbook-using-clover-uefi-hotpatch.261719/) (if it will show to enter the password over and over, then try to add before the command - sudo)
+- after completing previous point download my EFI folder
+- go to [Clover Configurator](https://www.tonymacx86.com/resources/clover-configurator.429/) and mount EFI partition on current boot disk
+- replace EFI with my [EFI](./EFI.zip)
+- reboot your laptop 
+
+Now everything should be working
+
+Enjoy your new hackintosh
