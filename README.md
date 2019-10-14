@@ -34,7 +34,7 @@ This is the guide to install macOS on the HP Probook 440 G4.
 - disabled VT-d
 - enabled VTx
 ### USB installer:
-- connect USB stick to device running macOS (Mac or Hackintosh)
+- connect the USB stick to a device running macOS (Mac or Hackintosh)
 - open Disk Utility - format USB as Mac OS Extended (Journaled) and rename it to USB
 - download [MacOS Mojave from the Apple App Store](https://apps.apple.com/us/app/macos-mojave/id1398502828?mt=12)
 - after download open terminal and paste:
@@ -60,9 +60,9 @@ sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallme
 - after installation completed, configure Hackintosh setting for your need
 ### Post Instalation
 - download [Clover Bootloader](https://sourceforge.net/projects/cloverefiboot/) and install it for UEFI booting only
-- [go here and folow instruction](https://www.tonymacx86.com/threads/guide-hp-probook-elitebook-zbook-using-clover-uefi-hotpatch.261719/) (if it will show to enter the password over and over, then try to add before the command - sudo)
-- after completing previous point download my EFI folder
-- go to [Clover Configurator](https://www.tonymacx86.com/resources/clover-configurator.429/) and mount EFI partition on current boot disk
+- [go here and follow instruction](https://www.tonymacx86.com/threads/guide-hp-probook-elitebook-zbook-using-clover-uefi-hotpatch.261719/) (if it will show to enter the password over and over, then try to add before the command - sudo)
+- after completing the previous point download my EFI folder
+- go to [Clover Configurator](https://www.tonymacx86.com/resources/clover-configurator.429/) and mount EFI partition on the current boot disk
 - replace EFI with my [EFI](./EFI.zip)
 - reboot your laptop 
 
