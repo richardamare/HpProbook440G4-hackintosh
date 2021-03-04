@@ -1,5 +1,6 @@
 # HP Probook 440 G4 Hackintosh
 This is the guide to install macOS on the HP Probook 440 G4.
+- [*macOS Big Sur OpenCore repository*](https://github.com/RichardAmare/HP-Probook-440-G4-Big-Sur)
 ## My Laptop Configuration:
 - CPU: i5-7200U
 - RAM: 16GB
@@ -67,5 +68,8 @@ sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallme
 - reboot your laptop 
 
 Now everything should be working
+
+### Quick Fix:
+- If trackpad suddenly stops working just hit print screen button on your keyboard (it works as toggle for trackpad)
 
 Enjoy your new hackintosh
